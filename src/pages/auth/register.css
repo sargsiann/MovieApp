@@ -1,0 +1,169 @@
+.register-container, .login-container  {
+	max-width: 600px;       /* расширен максимум */
+	width: 90vw;            /* занимает 90% ширины окна */
+	margin: 50px auto;
+	margin-top: 0px!important; /* убран верхний отступ */
+	margin-bottom: 0px!important; /* убран нижний отступ */
+	padding: 1rem;
+	padding-top: 0rem !important;
+	border-radius: 12px;
+	box-shadow:
+	  0 4px 12px rgba(0, 0, 0, 0.1),
+	  4px 0 8px rgba(255, 105, 180, 0.3),
+	  -4px 0 8px rgba(0, 123, 255, 0.3);
+	border-left: 3px solid #007bff;
+	border-right: 3px solid #ff69b4;
+  }
+ 
+  .lottie-adaptive {
+	width: 100%;       /* Make it fill the container's width */
+	max-width: 150px;
+	height: 120px !important;
+	display: block;    /* Prevent inline issues */
+	margin: 0 auto;    /* Center horizontally */
+  }
+
+  .ant-form-item-required::before {
+	display: none !important;
+  }
+
+  .register-title {
+	text-align: center;
+	margin-bottom: 1.5rem;
+  }
+
+
+  .custom-textarea {
+	border: none;
+	border-bottom: 2px solid transparent;
+	background-color: transparent;
+	resize: none;
+	outline: none;
+	width: 100%;
+	padding: 8px 4px;
+	font-size: 1rem;
+	transition: border-bottom 0.3s ease;
+	border-image-source: linear-gradient(to right, #007bff, #ff69b4);
+	border-image-slice: 1;
+	border-width: 0 0 2px 0;
+	border-style: solid;
+  }
+  
+  .custom-textarea:hover {
+	background-color: transparent!important;
+	}
+
+	.custom-textarea::placeholder {
+		background-color: transparent !important;
+	}
+
+  .custom-textarea:focus {
+	border-image-source: linear-gradient(to right, #007bff, #ff69b4);
+	border-image-slice: 1;
+	background-color: transparent !important;
+	border-bottom-color: transparent; /* чтобы не перекрывало градиент */
+  }
+
+  .gender-radio-group {
+	display: flex;
+	gap: 1.5rem;
+	padding: 8px 4px;
+	border: none;
+	border-width: 0 0 2px 0;
+	margin-bottom: 16px;
+  }
+
+  .gender-radio-group .ant-radio-wrapper {
+	margin: 0;
+	font-weight: 500;
+	transition: color 0.3s;
+  }
+
+  .gender-radio-group .ant-radio-checked .ant-radio-inner {
+	border-color: #ff69b4;
+	background-color: #ff69b4;
+  }
+
+  .gender-radio-group .ant-radio-wrapper:hover {
+	color: #007bff;
+  }
+
+
+  .favorite-categories-container {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 30px;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .categories-title {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 28px;
+	font-weight: 700;
+  }
+  
+  .categories-subtitle {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 16px;
+  }
+  
+  .genres-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	gap: 15px;
+	margin-bottom: 30px;
+  }
+  
+  .genre-square {
+	border: 2px solid #d9d9d9; /* Default solid border */
+	border-radius: 8px;
+	padding: 15px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	user-select: none;
+	box-sizing: border-box;
+  }
+  
+  .genre-square:hover {
+	border-color: #40a9ff;
+	box-shadow: 0 0 8px rgba(24, 144, 255, 0.2);
+	transform: translateY(-2px);
+  }
+  
+  .genre-square.selected {
+	box-shadow: 0 0 10px rgba(24, 144, 255, 0.4);
+	transform: scale(1.02);
+  
+	border-width: 3px;
+	border-style: solid;
+	border-image-source: linear-gradient(to right, #007bff, #ff69b4);
+	border-image-slice: 1;
+  
+	border-color: #1890ff; /* Fallback */
+  }
+  
+  .save-categories-button {
+	height: 45px;
+	font-size: 18px;
+	font-weight: 600;
+  }
+
+  /* Анимация сверху */
+  .lottie-adaptive {
+	max-width: 300px;
+	margin: 0 auto 30px auto;
+  }
+
+  
+  
+  
