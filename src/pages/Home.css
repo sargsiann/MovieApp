@@ -1,0 +1,19 @@
+.homepage-description {
+  max-width: 900px;
+  margin: 40px auto 30px;
+  padding: 0 20px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.homepage-description h1 {
+  font-size: 2.4rem;
+  color: #ff4da6;
+  margin-bottom: 12px;
+}
+
+.homepage-description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+}

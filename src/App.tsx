@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux';
 import { fetchMovieGenres } from './api/getData';
 
 
-
 function App() {
 	// Hooks for manageing themes
 
@@ -24,7 +23,6 @@ function App() {
 	
 	  useEffect(() => {
 		const genres = fetchMovieGenres();
-		console.log("Fetched genres:", genres);
 	  },[]);
 	
 	
